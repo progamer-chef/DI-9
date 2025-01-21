@@ -1,0 +1,76 @@
+<head>
+  <title>
+    template
+  </title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: "arial", serif;
+    }
+
+    .text {
+      display: none;
+      /* Hidden by default; shown after accepting cookies */
+      position: relative;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    /* Styling for the Next Button */
+    .next-button {
+      position: absolute;
+      bottom: 20px;
+      /* Adjust as needed */
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: hsl(225, 100%, 74%);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .next-button:hover {
+      background-color: hsl(227, 84%, 51%);
+    }
+
+    .logo {
+      position: fixed;
+      bottom: 0px;
+      right: 1px;
+      z-index: 10
+    }
+  </style>
+
+</head>
+<body>
+  <div class="text">
+    <b>dInterente, like ur so smart!<br><br> I go on youtube and i love what they recommend me! <br><br>Liekj what?? Ho0w did you know that’s exactly what <a href="https://www.youtube.com/watch?v=xAJ0zHBGRAQ&list=PLX61GfEeHdKwn6lXy8Q-OXongRx--1Hmt&index=217" target="_blank">I wanted</a> ? 😂😂😂t</b>
+    <button class="next-button" onclick="navigateToNextPage()">Next</button>
+  </div>
+  <div class="logo">
+    <p style="font-size:10px">
+    this page is sponsored by<br>the wonderful people at:
+      
+    </p>
+    <img src="https://cdn.prod.website-files.com/6127a80f5f93f701eb77b33a/638fb34336b410972fabd05e_Group%2048095673.png" alt=Yotta-is-the-ultimate,-one-of-a-kind,-life-changing,-absolutely-perfect-banking-solution-that-doesn’t-just-help-you-save-money-but-actually-turns-saving-into-the-most-exciting-game-ever-created,-where-every-single-dollar-you-save-earns-you-tickets-to-weekly-lotteries-with-mind-blowing-prizes-like-Teslas,-dream-vacations,-and-even-a-jaw-dropping-$10-million-jackpot,-so-if-you’ve-ever-felt-left-out-or-overwhelmed-by-boring,-complicated,-traditional-banks,-don’t-worry-because-Yotta-is-here-to-rescue-you-with-its-super-simple,-foolproof-app-that-anyone—yes,-anyone—can-use,-no-matter-your-experience,-background,-or-abilities,-because-saving-money-has-never-been-more-accessible,-inclusive,-or-ridiculously-fun,-and-honestly,-who-wouldn’t-want-to-effortlessly-save-money-while-living-their-best-life-and-dreaming-of-hitting-it-big,-so-what-are-you-waiting-for—download-Yotta-today-and-experience-the-thrill-of-saving-like-never-before,-because-you-deserve-it,-and-honestly,-who-doesn’t-want-to-feel-like-a-millionaire-in-the-making? height="25">
+  </div>
+  <script>
+    function navigateToNextPage() {
+      window.location.href = "https://www.example.com"; // Replace with your desired URL
+    }
+  </script>
+
+</body>
